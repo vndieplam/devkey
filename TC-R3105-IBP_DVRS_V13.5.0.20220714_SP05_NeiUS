@@ -1,0 +1,97 @@
+TC-R3105-IBP_DVRS_V13.5.0.20220714_SP05 NeiUS
+[2]
+0 = -1 ;Video transcoding
+[4]
+0 = 1 ;People counting report
+[6]
+7 = 1 ;Intercom function
+[8]
+5 = 14 ;HD parameters
+[9]
+2 = 1 ;Intelligent analysis-face detection alarm linkage
+3 = -1 ;License plate detection alarm linkage
+4 = -1 ;Black license plate detection
+6 = -1 ;Heat algorithm
+12 = -1 ;Face detection
+24 = 1 ;Intelligent analysis line position
+[10]
+0 = 1 ;Network-IP modification
+2 = 1 ;Device search
+7 = 1 ;Does IE support manual DNS configuration options
+[12]
+1 = 1 ;Audio and video-audio
+2 = 1 ;Audio broadcast
+7 = 1 ;Parameter refresh
+[15]
+1 = 1 ;Alarm-linked text plan
+3 = 1 ;Disk temperature abnormality
+4 = 1 ;Linked sound prompt
+5 = 1 ;Linked email alarm
+[16]
+0 = 1 ;Restore default to module
+1 = -1 ;N+M hot standby
+2 = -1 ;Import and export IPC parameters
+3 = 1 ;One-click to add digital channels
+5 = 1 ;Monthly and annual device automatic restart
+6 = 1 ;Upgrade IPC
+10 = 1 ;Cloud upgrade
+16 = 1 ;NVR supports cloud upgrade for IPC
+124 = 1 ;Support other calendar lists
+126 = 1 ;Daylight saving time implementation method
+[18]
+0 = 1 ;Client directly talks with front-end IPC
+[19]
+0 = 0 ;U disk formatting supports NTFS
+1 = 1 ;SMART operation and maintenance
+2 = 1 ;Bad track detection
+3 = 1 ;Support RIAD6
+6 = 1 ;Disk array smart detection
+[20]
+0 = 1 ;Timed snapshot
+1 = 1 ;Emergency snapshot linkage email is refined to each alarm
+2 = 1 ;Sub-stream recording playback
+3 = 1 ;Single-channel main and sub-stream recording simultaneous query
+[21]
+21 = 1 ;onvif-intranet search
+[64]
+0 = 1 ;NVR device properties-whether loop detection alarm is supported
+2 = 1 ;Whether cloud upgrade automatic detection is supported
+3 = 1 ;Whether IPv6 is supported
+5 = 1 ;Whether automatic time calibration IPC is supported
+6 = 1 ;Whether voltage alarm is supported
+7 = 1 ;Whether cloud upgrade is supported
+8 = 1 ;Whether NVR supports card port quota
+10 = 1 ;Whether passenger flow comparison is supported
+11 = 1 ;Whether onvif protocol is supported for domain name addition IPC
+12 = 3 ;Whether face-related functions are supported
+14 = 1 ;Whether manual setting of mapping port is supported
+25 = 3000 ;The maximum detection result of NVR at one time
+31 = -1 ;Does NVR support snapshot?
+32 = 1 ;File transfer protocol verification login
+27 = 2 ;Does the array support setting hot spare disk?
+29 = 1 ;Is NVR system time abnormal?
+30 = 1 ;Does NVR support curl asynchronous download?
+35 = 1 ;Does NVR support protocol to obtain QR code?
+37 = 1 ;Does NVR support local server configuration of SIP?
+38 = 1 ;Does NVR support setting channel type?
+40 = 1 ;Does it support setting snapshot mode?
+41 = 64 ;The maximum length of supported email address?
+42 = 1 ;Does it support front-end electric vehicle algorithm?
+43 = 1 ;Does it support box digital signature?
+45 = 1 ;Does it support protocol to obtain channel intercom audio parameters?
+46 = -1 ;Does it support shielding front-end manual alarm output?
+48 = 255 ;The maximum length of system file upgrade file name supported by NVR?
+55 = 1 ;Support one-key disarm
+56 = 1 ;Support IPC snapshot resolution setting
+57 = 1 ;Support buzzer linkage alarm duration customization
+58 = 1 ;Support closing multicast search
+59 = 1 ;Support https certificate import
+60 = 7 ;Support multicast TS/RTSP/SRTP
+61 = 1 ;Does multicast support secondary stream connection
+62 = 1 ;Support SRTP function
+63 = 1 ;Support certificate management function
+64 = 0 ;Does NVR support setting line display/hide
+67 = 1 ;Support UTC to obtain sunshine time
+68 = 1 ;Effective mode after configuring TS multicast
+[lastline]
+lastflag                       = 0
