@@ -1,0 +1,161 @@
+TC-R1116-IB_ali_DVRS_V13.10.2.20240315-V13.14.20.20240912_LTa
+[2]
+0 = -1 ;Video transcoding
+[4]
+0 = -1 ;People counting report
+[6]
+7 = 0 ;Intercom function
+[8]
+5 = 14 ;HD parameters
+[9]
+2 = -1 ;Intelligent analysis-face detection alarm linkage
+3 = -1 ;License plate detection alarm linkage
+4 = -1 ;Black license plate detection
+6 = -1 ;Heat algorithm
+12 = -1 ;Face detection
+24 = 2 ;Intelligent analysis of line position
+[10]
+0 = 1 ;Network-IP modification
+2 = 1 ;Device search
+7 = 1 ;Does IE support manual DNS configuration options
+14 = 2 ;Does it support the retransmission center setting
+19 = -1 ;Does it support WiFi working mode
+20 = -1 ;AP configurable options
+21 = -1 ;List of countries supported by Wi-Fi module
+104 = 2 ;Whether to support 802.1x
+121 = 7 ;List of digest algorithms supported by HTTP protocol authentication
+122 = 7 ;List of digest algorithms supported by HTTP protocol authentication
+123 = 1 ;Authentication methods supported by ONVIF protocol authentication
+130 = 1 ;Whether to support remote proxy function
+[12]
+1 = 1 ;Audio and video-audio
+2 = 1 ;Audio broadcast
+7 = 1 ;Parameter refresh
+[15]
+1 = 1 ;Alarm-linked text plan
+3 = 1 ;Disk temperature abnormality
+4 = 1 ;Linked sound prompt
+5 = -1 ;Linked email alarm
+[16]
+0 = 1 ;Restore default refinement to module
+1 = -1 ;N+M hot standby
+2 = -1 ;IPC parameter import and export
+3 = 1 ;One-click to add digital channels
+5 = 1 ;Automatic device restart every month and year
+6 = 1 ;Upgrade IPC
+10 = 1 ;Cloud upgrade
+16 = 1 ;NVR supports cloud upgrade for IPC
+124 = 1 ;Support other calendar lists
+126 = 1 ;Daylight saving time implementation method
+139 = 1 ;Whether to support App unbinding
+165 = 3 ;WEB session
+173 = 1 ;QR code related capability level, bit0 App adds device QR code text content display
+175 = 15 ;User password error lock allows maximum number of trial and error times
+182 = 1 ;Whether to support external reporting of server status and error cause (reserved, only used by main program and trade)
+[18]
+0 = 1 ;Client directly talks with front-end IPC
+[19]
+0 = 0 ;U disk formatting supports NTFS
+1 = 1;SMART operation and maintenance
+2 = 1;Bad track detection
+3 = 1;Support RIAD6
+6 = 1;Smart detection of disk array
+104 = 2;Whether to support disk sleep setting
+[20]
+0 = 0;Scheduled snapshot
+1 = 1;Event snapshot linkage email is refined to each alarm
+2 = 1;Sub-stream recording playback
+3 = 1;Single channel main and sub-stream recording simultaneous query
+101 = 0;The device supports cifs storage
+117 = 365;The maximum number of days to retain the recording
+[21]
+21 = 1;onvif-Intranet search
+[64]
+0 = 0;NVR device properties-whether to support loop detection alarm
+2 = 1;Whether to support cloud upgrade automatic detection
+3 = 1;Whether to support IPv6
+5 = 1 ;Whether to support automatic time calibration IPC
+6 = 1 ;Whether to support voltage alarm
+7 = 1 ;Whether to support cloud upgrade
+10 = 0 ;Whether to support passenger flow comparison
+11 = 1 ;Whether to support onvif protocol for domain name addition IPC
+12 = 1 ;Whether to support face-related functions
+13 = 1 ;Whether to support easyddns
+14 = 1 ;Whether to support manual setting of mapping port
+19 = 0 ;Whether to support wifi working mode
+20 = 0 ;AP configurable options
+21 = 0 ;Wi-Fi module supported country list
+29 = 1 ;Whether NVR system time is abnormal
+30 = 1 ;Whether NVR supports curl asynchronous download
+31 = 2 ;Whether NVR supports snapshot
+32 = 0 ;File transfer protocol verification login
+33 = 1 ;Whether NVR shields hot standby
+35 = 1 ;Does NVR support protocol to obtain QR code
+39 = 3 ;Does NVR support disk group space warning
+40 = 4 ;Does it support setting the capture mode
+41 = -1 ;The maximum length of the supported email address
+42 = -1 ;Does it support the front-end electric vehicle algorithm
+43 = 1 ;Does it support box digital signature
+44 = 1 ;Does NVR support cloud time calibration function
+45 = 1 ;Does it support protocol to obtain channel intercom audio parameters
+46 = -1 ;Does it support shielding the front-end manual alarm output
+48 = 255 ;The maximum length of the system file upgrade file name supported by NVR
+55 = 1 ;Does it support one-key disarm
+56 = 1 ;Does it support IPC capture resolution setting
+57 = 1 ;Does it support customizing the duration of buzzer linkage alarm
+58 = 1 ;Does it support closing multicast search
+59 = 1 ;Does it support https certificate import
+60 = 7 ;Whether to support multicast TS/RTSP/SRTP
+61 = 2 ;Whether multicast supports secondary stream connection
+62 = 1 ;Whether to support SRTP function
+63 = 1 ;Whether to support certificate management function
+64 = 0 ;Whether NVR supports setting line display/hide
+67 = 1 ;Whether to support UTC to obtain sunshine time
+68 = 1 ;Effective mode after configuring TS multicast
+69 = 1 ;Whether NVR supports setting password to activate IPC
+70 = 1 ;Whether NVR supports one-key arming for motion detection
+71 = 1 ;Whether NVR supports displaying IPC model
+73 = 2 ;Whether NVR supports preview effect setting
+74 = 2 ;Whether NVR channel search list supports displaying added
+75 = 2 ;Whether NVR supports verifying connection mark (only YL standard products support)
+76 = 1 ;Whether NVR supports video estimation function
+77 = 1; Does NVR support changing UI entries using entry change tool?
+78 = 2; Does NVR support disk group quota mode switching optimization solution?
+82 = 1; Does NVR support 64-bit IPC version number?
+84 = 5; The maximum number of vod playback channels supported by NVR, 5 by default
+86 = 1; Does NVR support output volume adjustment?
+87 = 2; Does NVR support routing settings?
+88 = 1; Does NVR support separate configuration of channel name, date and time, additional information, etc.
+89 = 1; Does NVR support one-key disarm linkage APP settings?
+91 = 1; Does network delay test support ping packet size and number of settings?
+92 = 127; The maximum length of email password supported by NVR
+93 = 1; Multicast protocol mandatory username and password verification (202212-security reinforcement requirements)
+94 = 0 ;Does the smb/cifs device support formatting?
+95 = 1 ;Does the NVR support bitwise modification of IPC parameters and IPC password modification?
+96 = 2 ;Does it support intelligent playback?
+97 = 2 ;Does it support behavioral target retrieval?
+98 = 1 ;Does it support https automatic jump?
+99 = 1 ;Does it support setting IPC automatic maintenance function?
+101 = 1 ;Does the NVR support setting buzzer?
+102 = 1 ;Does the NVR support NTP switch function?
+103 = 0 ;NVR certificate management support function list
+104 = 2 ;Does it support onvif permission control function?
+110 = 2 ;Does the NVR support video transcoding download? 0, reserved; 1, supported; 2. not supported
+111 = 2 ;Does the NVR VideoGuard support heartbeat setting? 0, reserved; 1, supported; 2. not supported
+118 = 1 ;Does NVR support one-key detection?
+120 = 1 ;Does NVR support preview drag function (only supported by non-PSE models)
+121 = 1 ;Does NVR support IPC batch upgrade function?
+124 = 1 ;Does NVR support APP alarm linkage tracking protocol?
+129 = 1 ;Does NVR support IE and UI settings for alarm linkage tracking?
+138 = 1 ;Does NVR support factory reset function?
+139 = 5 ;Does NVR support preview overlay LOGO or clock function?
+140 = 7 ;Does NVR support 64-bit version number bitwise processing?
+143 = 7 ;Does NVR support playback strategy?
+148 = 1 ;Does NVR support setting mac binding enable setting?
+166 = 1 ;Does NVR support camera alarm cancellation?
+176 = 3 ;Does NVR support UI retrieval of front-end camera password?
+184 = 1 ;Does nvr support preview diagnosis, automatically switch to maximum preview performance, and block image prompts on the preview interface?
+185 = 1 ;Does nvr support automatic pop-up reminders for network parameter changes and IPC disconnection?
+186 = 1 ;Does nvr support automatic pop-up reminders for cloud upgrades?
+[lastline]
+lastflag = 0
